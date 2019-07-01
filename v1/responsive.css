@@ -1,0 +1,152 @@
+/**
+*	Responsive
+*	- For 1200 Wrapper
+*	----------------------------------------------------------------------
+*/
+@media only screen and ( max-width: 2560px ) {
+	/* 1150px - 1181px */
+
+	/**
+	*	Wrapper
+	*/
+
+	.site-container{
+		padding-top: 115px;
+	}
+	
+}
+
+
+@media only screen and ( max-width: 1200px ) {
+	/* 1150px - 1181px */
+
+	/**
+	*	Wrapper
+	*/
+
+	.site-container{
+		width: 1150px;
+	}
+	
+}
+
+@media only screen and (max-width: 1149px) {
+	/* 992px - 1149px */
+
+	/**
+	*	Wrapper
+	*/
+
+	.site-container{
+		width: 992px;
+	}
+
+	.text-tag-container:after {
+	    top: 120px;
+	}
+
+	img.devcon-city {
+	    padding-top: 25px;
+	    padding-bottom: 25px;
+	}
+	
+}
+
+@media only screen and ( max-width: 991px ) {
+	/* 768px - 991px */
+
+	/**
+	*	Wrapper
+	*/
+
+	.site-container{
+		width: 768px;
+	}
+
+	img.devcon-city{
+		display: block;
+		margin: 0 auto;
+	}
+
+	img.devcon-logo {
+	    display: block;
+	    margin: 0 auto;
+	}
+
+	.text-tag-container:after {
+	    top: 85px;
+	}
+
+	p.subscription-text{
+		margin-bottom: 30px;
+		margin-top: 30px;
+	}
+
+	.hashtag-devcon{
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	
+}
+
+@media only screen and (max-width: 767px) {
+	/* 601px - 767px */
+
+	
+}
+
+@media only screen and (max-width: 600px) {
+	/* 540px - 600px */
+
+	/**
+	*	Wrapper
+	*/
+
+
+	
+
+	.hashtag-devcon{
+		font-size: 27.67px;
+		margin-top: 10px;
+	}
+
+	.site-container{
+		width: 540px;
+	}
+
+
+
+}
+
+@media only screen and (max-width: 539px) {
+	/* 320px - 539px */
+
+	/**
+	*	Wrapper
+	*/
+
+	
+
+	.site-container{
+		width: 320px;
+	}
+
+	.text-tag-container:after {
+	    top: 155px;
+	}
+
+	.subscription-text{
+	    margin-bottom: 40px;
+	}
+
+
+}
+
+
+	/**
+	*	Device Specific
+	*/
+	@media only screen and (max-width: 1024px) {
+		/* Target iPad Landscape */
+	}

@@ -1,0 +1,148 @@
+/*
+* Font Style
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700'); 
+
+/*
+* CSS starts here
+*/
+
+body{
+	background-image: url('img/landing-page-design.png');
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+
+.site-container {
+	width: 1600px;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 115px;
+}
+
+.container {
+	width: 1200px;
+	max-width: 100%;	
+	padding: 0 15px;
+	margin-left: auto;
+	margin-right: auto;
+	box-sizing: border-box;
+}
+
+.devcon-logo{
+	display: block;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	max-width: 100%
+}
+
+.subsciption-form h2{
+	font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #72bf44;
+    text-align: center;
+    font-size: 37.5px;
+}
+
+.text-tag-container{
+	position: relative;
+}
+
+.text-tag{
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+	font-weight: 300;
+	text-align: center;
+	
+	padding-bottom: 17px;
+	color: #262626;
+}
+
+.text-tag-container:after{
+	content: '';
+ 	position: absolute;
+ 	display: block;
+ 	top: 85px;
+ 	left: 25px;
+ 	right: 25px;
+ 	bottom: 0;
+ 	background-color: #333333;
+}
+
+.subscription-text{
+	font-family: 'Roboto', sans-serif;
+	font-size: 31.25px;
+	font-weight: 500;
+	width: 476px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 15px;
+	line-height: 1.1;
+	max-width: 100%;
+}
+
+.subsciption-form input{
+	font-family: 'Roboto', sans-serif;
+	display: block;
+	width: 479px;
+	max-width: 100%;
+	margin: 0 auto;
+	margin-top: 13px;
+	height: 55px;
+	outline: 0;
+	border: 1px solid #eaeae8;
+	margin-bottom: 15px;
+	-webkit-box-shadow: -1px 1px 0px 0px rgba(209,209,209,0.96);
+	-moz-box-shadow: -1px 1px 0px 0px rgba(209,209,209,0.96);
+	box-shadow: -1px 1px 0px 0px rgba(209,209,209,0.96);
+	padding-left: 20px;
+	font-weight: 700;
+}
+
+.subsciption-form input::placeholder{
+	font-size: 20.83px;
+	font-weight: 700;
+	font-style: italic;
+	color: #cccbca;
+}
+
+.subscription-button {
+	font-family: 'Roboto', sans-serif;
+    display: block;
+    width: 479px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f68d2e;
+    height: 55px;
+    font-weight: 700;
+    font-size: 20.83px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 2.7;
+    max-width: 100%;
+}
+
+.subscription-button:hover{
+	text-decoration: none;
+	color: #fff;
+}
+
+img.devcon-city{
+	display: block;
+	max-width: 100%;
+}
+
+.hashtag-devcon{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	color: #000;
+	font-size: 41.67px;
+	text-align: center;
+}
+
+
