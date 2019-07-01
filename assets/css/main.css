@@ -815,7 +815,7 @@ ul li {
 @media (max-width: 460px) {
 
   .site-branding span{
-    display: none;
+    display: ;
   }
 
 }
