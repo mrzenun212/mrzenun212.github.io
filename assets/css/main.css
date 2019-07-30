@@ -575,12 +575,18 @@ ul li {
 
 .partner .partner-box-intellectual {
   background: url(../images/intellectual.png) no-repeat center center/contain;
+  pointer-events: none;
+  cursor: default;
 }
 .partner .partner-box-goal {
   background: url(../images/goal.svg) no-repeat center center/contain;
+  pointer-events: none;
+  cursor: default;
 }
 .partner .partner-box-connection {
   background: url(../images/connection.svg) no-repeat center center/contain;
+  pointer-events: none;
+  cursor: default;
 }
 .partner .partner-box-cdoictcouncil {
   background: url(../images/partner/cdoictcouncil.png) no-repeat center center/contain;
