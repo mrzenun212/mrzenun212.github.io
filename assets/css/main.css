@@ -511,6 +511,43 @@ ul li {
   line-height: 29px;
   font-weight: 500;
   color: #292929;
+  text-align: center;
+}
+
+.apply-speaker{
+  /*position: absolute;*/
+  width: 169px;
+  height: 27px;
+  left: 636px;
+  top: 2405px;
+  margin-top: 5px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  background: #703E95;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  text-align: center;
+/*position: absolute;*/
+
+}
+
+.apply-word{
+  width: 149.37px;
+  height: 20px;
+  left: 646.9px;
+  top: 2415px;
+  font-family: Helvetica Neue;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 500;
+  text-align: center;
+  /* identical to box height */
+
+  text-align: center;
+  color: #FFFFFF;
 }
 
 .why-sub{
