@@ -479,7 +479,7 @@ ul li {
  * 6.7 Section: Schedule
  */
 .partner {
-  background-color: #f8f8f8;
+  background-color: #F8F2FF;
 }
 .partner-box-wrap{
     margin: 25px auto;
@@ -492,6 +492,36 @@ ul li {
     border-radius: 4px;
     border: 1px solid #D2D6DF;
 }
+
+.why-box-wrap{
+    margin: 25px auto;
+    width: 170px;
+    height: 170px;
+    text-align: center;
+    display: table;
+    padding: 10px 20px;
+    /*border-radius: 4px;
+    border: 1px solid #D2D6DF;*/
+}
+
+.why{
+  text-align: center;
+  font-family: Helvetica Neue;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 500;
+  color: #292929;
+}
+
+.why-sub{
+  text-align: center;
+  font-family: Helvetica Neue;
+  font-size: 18px;
+  line-height: 32px;
+  /*font-weight: 500;*/
+  color: #292929;
+}
+
 .partner .partner-box {
     opacity: 1;
   height: 150px;
@@ -504,6 +534,16 @@ ul li {
 }
 .partner .partner-box:hover {
   opacity: 0.5;
+}
+
+.partner .partner-box-intellectual {
+  background: url(../images/intellectual.png) no-repeat center center/contain;
+}
+.partner .partner-box-goal {
+  background: url(../images/goal.svg) no-repeat center center/contain;
+}
+.partner .partner-box-connection {
+  background: url(../images/connection.svg) no-repeat center center/contain;
 }
 .partner .partner-box-cdoictcouncil {
   background: url(../images/partner/cdoictcouncil.png) no-repeat center center/contain;
