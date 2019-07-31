@@ -889,7 +889,7 @@ ul li {
 #devcon-city-design{
   height: 184px;
   box-sizing: border-box;
-  overflow: hidden;
+  /*overflow: hidden;*/
   transform: translatey(0px);
   animation: float 6s ease-in-out infinite;
   margin-bottom: 20px;
@@ -897,8 +897,24 @@ ul li {
 }
 #devcon-city-design img{ 
   width: auto; 
-  height: 184px;
+  height: 230px;
 }
+
+#devcon-city-design2{
+  height: 184px;
+  box-sizing: border-box;
+  /*overflow: hidden;*/
+  transform: translatey(0px);
+  animation: float 6s ease-in-out infinite;
+  margin-bottom: 20px;
+
+}
+#devcon-city-design2 img{ 
+  /*width: auto; */
+  height: 250px;
+  width: 330px; margin-top: -27px
+}
+
 
 @keyframes float {
   0% {
@@ -950,6 +966,14 @@ ul li {
   }
   #devcon-city-design img{ 
     height: 120px;
+  }
+
+  #devcon-city-design2{
+    height: 120px;
+  }
+  #devcon-city-design2 img{ 
+    height: 120px;
+    width: 260px;
   }
 
 }
