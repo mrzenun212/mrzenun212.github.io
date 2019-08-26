@@ -428,7 +428,7 @@ ul li {
 .speaker {
   text-align: center;
   color: #313131;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   margin: 25px 0;
 }
 .speaker h4 {
@@ -443,6 +443,7 @@ ul li {
   height: 250px;
   border-radius: 100%;
   transition: 1s;
+  border: 10px solid #703E95;
 }
 .speaker img:hover {
   opacity: .7;
@@ -666,8 +667,14 @@ ul li {
 .partner .partner-box-cdoictcouncil {
   background: url(../images/partner/cdoictcouncil.png) no-repeat center center/contain;
 }
+.partner .partner-box-paymaya {
+  background: url(../images/partner/paymaya.png) no-repeat center center/contain;
+}
 .partner .partner-box-coffeemate {
   background: url(../images/partner/coffeemate.png) no-repeat center center/contain;
+}
+.partner .partner-box-rotaract {
+  background: url(../images/partner/rotaract.png) no-repeat center center/contain;
 }
 .partner .partner-box-3 {
   background: url(../images/partner/partner-3.png) no-repeat center center/contain;
@@ -730,7 +737,7 @@ ul li {
 }
 
 .partner .partner-box-gdgcdo {
-    background: url(../images/partner/community-gdgcdo.png) no-repeat center center/contain;
+    background: url(../images/partner/gdgcdonew.png) no-repeat center center/contain;
 }
 
 .partner .partner-box-itgx {
@@ -760,7 +767,7 @@ ul li {
 }
 
 .partner .partner-box-hackm3 {
-    background: url(../images/partner/community-hackm3.jpg) no-repeat center center/contain;
+    background: url(../images/partner/hackm3.png) no-repeat center center/contain;
 }
 
 .partner .partner-box-xcel {
