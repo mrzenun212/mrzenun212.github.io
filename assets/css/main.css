@@ -6,13 +6,15 @@
  * 2.0 Global Style
  */
 html {
-  font-family: 'Roboto', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-size: 16px;
 }
 
 body {
   color: #4e4e4e;
-  font-family: 'Roboto', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.6;
@@ -154,8 +156,13 @@ ul li {
   margin: 0 0 20px;
   text-transform: uppercase;
   text-align: center;
+  font-family: Helvetica Neue;
 }
 
+.multiple-title{
+  text-transform: none;
+  font-family: Helvetica Neue;
+}
 /* 
  * 3.0 Helper Class
  */
@@ -220,10 +227,10 @@ ul li {
 /* 
  * 3.5 Helper Class: background
  */
-.bg-image, .bg-image-1, .bg-image-2, .bg-image-3, .bg-image-4 {
+.bg-image, .bg-image-1, .bg-image-2, .bg-image-3, .bg-image-4 , .bg-image-5{
   position: relative;
 }
-.bg-image::before, .bg-image-1::before, .bg-image-2::before, .bg-image-3::before, .bg-image-4::before {
+.bg-image::before, .bg-image-1::before, .bg-image-2::before, .bg-image-3::before, .bg-image-4::before, .bg-image-5::before {
   content: "";
   position: absolute;
   top: 0;
@@ -249,6 +256,9 @@ ul li {
 .bg-image-3 {
     background: url(../images/backgrounds/bg-3.jpg) no-repeat center center/cover;
 }
+.bg-image-5 {
+    background: url(../images/backgrounds/bg-5.jpg) no-repeat center center/cover;
+}
 .bg-image-3::before {
     background-color: rgba(0, 0, 0, 0.7);
 }
@@ -272,6 +282,11 @@ ul li {
     text-transform: uppercase;
     text-align: left;
   }
+
+  .multiple-title{
+    text-transform: none;
+    font-family: Helvetica Neue;
+  }
 }
 /* 
  * 4.0 Navigation
@@ -290,7 +305,7 @@ ul li {
 }
 .navbar-custom .navbar-nav > li > a {
   color: #fff;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-size: 12px;
   font-weight: 400;
   border-bottom: 1px solid transparent;
@@ -487,6 +502,21 @@ ul li {
 .partner {
   background-color: #F8F2FF;
 }
+.partner .low{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-transform: none;
+}
+.partner .lows{
+  margin-top: 64px;
+  margin-bottom: 40px;
+  text-transform: none;
+}
+
+.partner .firstlow{
+  text-transform: none;
+}
+
 .partner-box-wrap{
     margin: 25px auto;
     background: #fff;
@@ -752,6 +782,29 @@ ul li {
 .partner .partner-box-ccssbo {
     background: url(../images/partner/community-ccssbo.png) no-repeat center center/contain;
 }
+
+.partner .partner-box-soce {
+    background: url(../images/partner/SOCE.jpg) no-repeat center center/contain;
+}
+.partner .partner-box-pixels {
+    background: url(../images/partner/PIXELS.jpg) no-repeat center center/contain;
+}
+.partner .partner-box-cssc {
+    background: url(../images/partner/CSSC.png) no-repeat center center/contain;
+}
+.partner .partner-box-ccsec {
+    background: url(../images/partner/CCSEC.jpg) no-repeat center center/contain;
+}
+.partner .partner-box-comsoc {
+    background: url(../images/partner/COMSOC.png) no-repeat center center/contain;
+}
+.partner .partner-box-itss {
+    background: url(../images/partner/ITSS.jpg) no-repeat center center/contain;
+}
+.partner .partner-box-citesbo {
+    background: url(../images/partner/CITESBO.jpg) no-repeat center center/contain;
+}
+
 .partner .partner-box-robogals {
     background: url(../images/partner/community-robogals.png) no-repeat center center/contain;
 }
@@ -789,6 +842,9 @@ ul li {
 .partner .partner-box-pldt-enterprise {
     background: url(../images/partner/pldt-enterprise.jpg) no-repeat center center/contain;
 }
+.partner .partner-box-pldt {
+    background: url(../images/partner/pldt.png) no-repeat center center/contain;
+}
 .partner .partner-box-pldt-innolab {
     background: url(../images/partner/pldt-innolab.png) no-repeat center center/contain;
 }
@@ -796,10 +852,16 @@ ul li {
     background: url(../images/partner/jobstreet.png) no-repeat center center/contain;
 }
 .partner .partner-box-streetby {
-    background: url(../images/partner/streetby.png) no-repeat center center/contain;
+    background: url(../images/partner/streetbynew.png) no-repeat center center/contain;
+}
+.partner .partner-box-dost {
+    background: url(../images/partner/dost.png) no-repeat center center/contain;
 }
 .partner .partner-box-canva {
     background: url(../images/partner/canva.png) no-repeat center center/contain;
+}
+.partner .partner-box-fligno {
+    background: url(../images/partner/fligno.png) no-repeat center center/contain;
 }
 .partner .partner-box-businessweekmindanao {
     background: url(../images/partner/businessweekmindanao.jpg) no-repeat center center/contain;
@@ -812,6 +874,9 @@ ul li {
 }
 .partner .partner-box-sevenseas {
     background: url(../images/partner/sevenseas.png) no-repeat center center/contain;
+}
+.partner .partner-box-dahilayan {
+    background: url(../images/partner/dahilayan.png) no-repeat center center/contain;
 }
 .partner .partner-box-globe {
     background: url(../images/partner/globe.png) no-repeat center center/contain;
@@ -962,7 +1027,7 @@ ul li {
   }
 
   .section-title {
-    margin: 0 0 30px;
+    margin: 0 0 16px;
   }
 
   figure {
@@ -1009,19 +1074,40 @@ ul li {
 
 }
 
+/*@media (min-width: 768px){
+  .col-sm-6 {
+    width: 100%;
+  }
+}*/
+
 /* 
  * 7.0 Site-footer
  */
 .site-footer {
-  background-color: #000;
+  height: 82px;
+  background-color: #F6FFE9;
   color: #fff;
-  text-align: center;
+  text-align: left;
   padding: 30px 0;
 }
 .site-footer .site-info {
   font-weight: 400;
   margin-bottom: 10px;
+  color: #000;
+  font-family: Helvetica Neue;
+  font-size: 14px;
 }
+.site-footer .footer-image {
+  float: right; 
+  margin-left: 10px
+  /*width: 18px;*/
+  /*height: 18px;*/
+}
+
+.site-footer .footer-image img:hover {
+
+}
+
 .site-footer .site-info a {
   color: #fff;
 }
