@@ -872,8 +872,20 @@ ul li {
 .partner .partner-box-parasathd {
     background: url(../images/partner/parasathd.png) no-repeat center center/contain;
 }
+.partner .partner-box-here {
+    background: url(../images/partner/here-technologies.jpg) no-repeat center center/contain;
+}
+.partner .partner-box-pineapplepy {
+    background: url(../images/partner/pineapplepy.png) no-repeat center center/contain;
+}
+.partner .partner-box-scitc {
+    background: url(../images/partner/scitc.png) no-repeat center center/contain;
+}
 .partner .partner-box-sevenseas {
     background: url(../images/partner/sevenseas.png) no-repeat center center/contain;
+}
+.partner .partner-box-delmonte {
+    background: url(../images/partner/delmonte.png) no-repeat center center/contain;
 }
 .partner .partner-box-dahilayan {
     background: url(../images/partner/dahilayan.png) no-repeat center center/contain;
